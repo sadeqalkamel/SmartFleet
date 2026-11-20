@@ -1,0 +1,65 @@
+﻿# Secrets and environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+key.properties
+google-services.json
+GoogleService-Info.plist
+secrets.json
+credentials.json
+
+# Laravel
+**/vendor/
+**/node_modules/
+**/public/build/
+**/bootstrap/cache/*.php
+**/storage/logs/*
+**/storage/framework/cache/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+**/*.sqlite
+**/*.sqlite3
+
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Flutter
+**/.dart_tool/
+**/.flutter-plugins*
+**/.packages
+**/build/
+**/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/ios/Pods/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+
+# Editor and system
+**/.idea/
+**/.vs/
+**/.vscode/settings.json
+**/Thumbs.db
+**/.DS_Store
+
+# Local installation packages and backups
+sf-package/
+sf-dispatch-package/
+sf-execution-package/
+sf-flutter-package/
+*.zip
+*.bak
+*.backup
+*.sql
+*.dump
